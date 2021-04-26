@@ -1,0 +1,32 @@
+{
+    "devDependencies": {
+        "@babel/core": "^7.13.15",
+        "@babel/preset-env": "^7.13.15",
+        "@symfony/stimulus-bridge": "^2.0.0",
+        "@symfony/webpack-encore": "^1.0.0",
+        "autoprefixer": "^10.2.5",
+        "core-js": "^3.0.0",
+        "postcss": "^8.2.10",
+        "postcss-loader": "^5.2.0",
+        "regenerator-runtime": "^0.13.2",
+        "stimulus": "^2.0.0",
+        "tailwindcss": "^2.1.1",
+        "vue": "^2.6.12",
+        "vue-loader": "^15.9.6",
+        "vue-router": "^3.5.1",
+        "vue-template-compiler": "^2.6.12",
+        "vuex": "^3.6.2",
+        "webpack-notifier": "^1.6.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server --hot",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "axios": "^0.21.1"
+    }
+}
