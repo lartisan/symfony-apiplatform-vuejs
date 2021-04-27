@@ -11,8 +11,9 @@ A starter application with:
 
 ## Installation
 1. After cloning this repository, run ```composer install``` and ```npm install && npm run dev```
-2. Create a database (example: ```touch var/database.sqlite```) and run ```php bin/console doctrine:schema:update --force```
-3. Run the User fixture ```php bin/console doctrine:fixtures:load``` with the default data or create your own credentials.
-4. Run the php server ```php -S localhost:8000 -t public/``` (if you'll be using a different port, don't forget to update the *baseURL* in ```./assets/js/api.js```)
-5. Head to the login page: http://localhost:8000/login and use the newly created credentials
-5. Enjoy!
+2. Follow the installation steps to setup [Lexik JWT Authentication](https://github.com/lexik/LexikJWTAuthenticationBundle/blob/master/Resources/doc/index.md#installation)
+3. Create a database (example: ```touch var/database.sqlite```) and run ```php bin/console doctrine:schema:update --force```
+4. Run the User fixture ```php bin/console doctrine:fixtures:load``` with the default data or create your own credentials.
+5. Run the php local server ```php -S localhost:8000 -t public/``` (if you'll be using a different port, don't forget to update the *baseURL* in ```./assets/js/api.js```)
+6. Head to the login page: http://localhost:8000/login and login using the newly created credentials
+7. Enjoy!
