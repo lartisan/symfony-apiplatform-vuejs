@@ -70,8 +70,8 @@
           <td class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800">{{ user.roles }}</td>
           <td class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800">
             <div class="flex flex-row justify-end items-center space-x-2">
-              <router-link :to="{ name: 'users-show', params: { id: user.id }}" class="px-2 py-1 bg-blue-400 text-white text-xs font-medium rounded-sm shadow-sm">Visualizer</router-link>
-              <button class="px-2 py-1 bg-green-600 text-white text-xs font-medium rounded-sm shadow-sm">Modifier</button>
+              <router-link :to="{ name: 'users-show', params: { id: user.id }}" class="px-2 py-1 bg-blue-400 text-white text-xs font-medium rounded-sm shadow-sm">View</router-link>
+              <!-- <button class="px-2 py-1 bg-green-600 text-white text-xs font-medium rounded-sm shadow-sm">Edit</button>-->
             </div>
           </td>
         </tr>
