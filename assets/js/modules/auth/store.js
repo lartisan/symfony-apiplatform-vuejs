@@ -18,7 +18,7 @@ export default {
         SET_TOKEN: (state, payload) => state.token = payload,
         SET_AUTH_USER: (state, payload) => state.currentUser = { username: payload.username, roles: payload.roles },
         AUTH_LOGOUT: state => {
-            state.token = null
+            state.token = false;
             state.currentUser = {}
         }
     },

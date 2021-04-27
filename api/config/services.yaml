@@ -1,3 +1,0 @@
-services:
-  App\DataPersister\UserDataPersister:
-    tags: [ 'api_platform.data_persister' ]
