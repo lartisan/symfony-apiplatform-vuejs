@@ -1,4 +1,5 @@
 {
+    "name": "lartisan/symfony-apiplatform-vuejs",
     "description": "Symfony API Platform with Vue.js",
     "type": "project",
     "license": "proprietary",
